@@ -5162,6 +5162,12 @@ input[type="button"].btn-block {
   border-top-right-radius: calc(0 - 1px);
 }
 
+.card-img-custom {
+    width: 150%;
+    border-top-left-radius: calc(0 - 1px);
+    border-top-right-radius: calc(0 - 1px);
+}
+
 .card-img-bottom {
   width: 100%;
   border-bottom-right-radius: calc(0 - 1px);
@@ -11552,7 +11558,7 @@ pre .code {
 
 .header {
   position: relative;
-  height: 100vh;
+  height: 30vh;
   min-height: 600px;
   background-image: url(../imgs/header.jpg);
   background-size: cover;
