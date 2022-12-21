@@ -594,16 +594,31 @@ pre code {
   margin-left: auto;
 }
 
+.navbar-header-text {
+    padding: 15px;
+    color: antiquewhite;
+    text-align: center;
+    float: left;
+}
+
+.navbar-header-text-right {
+    padding: 15px;
+    color: antiquewhite;
+    text-align: right;
+    float: right;
+    position: right;
+}
+
 .row {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
 }
 
 .no-gutters {
@@ -3075,7 +3090,7 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-secondary {
-  color: #6c757d;
+  color: antiquewhite;
   border-color: #6c757d;
 }
 
@@ -11609,6 +11624,12 @@ pre .code {
   margin-bottom: 1.5rem;
 }
 
+.carousel-explain {
+    font-weight: bold;
+    padding-left: 26px;
+    margin-bottom: 0rem;
+}
+
 .header .carousel .carousel-inner .btn {
   border-radius: 20px;
   margin: 15px 0;
@@ -11628,29 +11649,36 @@ pre .code {
   color: #212529;
 }
 
+.header-title-sub {
+    font-size: 2.4rem;
+    font-weight: bold;
+    opacity: .8;
+    color: black;
+}
+
 .header-mini {
-  min-height: 24rem;
-  height: 24rem;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  text-align: center;
-  padding: 1rem;
-  background: #f9bebe;
+    min-height: 6rem;
+    height: 6rem;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem;
+    background-color: antiquewhite;
 }
 
 @media (max-width: 767.98px) {
@@ -11658,6 +11686,7 @@ pre .code {
     height: auto;
     padding: 50px 0;
   }
+
   .header .carousel {
     margin-top: 100px;
   }
